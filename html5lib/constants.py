@@ -469,21 +469,24 @@ headingElements = (
 )
 
 voidElements = frozenset((
-    "base",
-    "command",
-    "event-source",
-    "link",
-    "meta",
-    "hr",
-    "br",
-    "img",
-    "embed",
-    "param",
     "area",
+    "base",
+    "br",
     "col",
+    "command",
+    "embed",
+    "event-source",
+    "hr",
+    "img",
     "input",
+    "keygen",
+    "link",
+    "menuitem"
+    "meta",
+    "param",
     "source",
-    "track"
+    "track",
+    "wbr"
 ))
 
 cdataElements = frozenset(('title', 'textarea'))
